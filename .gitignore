@@ -1,7 +1,21 @@
+# Composer
 /vendor/
-composer.lock
-vendor
-.php-version
+
+# Codeception
+/tests/_output/
+/tests/_run/
+/tests/_support/_generated/
+
+# PHPUnit
 .phpunit.result.cache
-tests/_run/*
-tests/_support/_generated/*
+/phpunit.xml
+
+# IDE
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+docker-compose.yml
